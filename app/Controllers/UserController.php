@@ -251,4 +251,9 @@ class UserController extends BaseController
             return $this->view()->assign('logs', $traffic)->assign('seleNode', -1)->assign('nodes', Node::all())->display('user/trafficlog.tpl');
         }
     }
+
+    public function help()
+    {
+        return $this->view()->display('user/help.tpl');
+    }
 }

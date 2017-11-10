@@ -92,30 +92,6 @@
                 <!-- /.box -->
             </div>
             <!-- /.col (right) -->
-
-            <div class="col-md-6">
-                <div class="box box-primary">
-                    <div class="box-header">
-                        <i class="fa  fa-paper-plane"></i>
-
-                        <h3 class="box-title">连接信息</h3>
-                    </div>
-                    <!-- /.box-header -->
-                    <div class="box-body">
-                        <dl class="dl-horizontal">
-                            <dt>端口</dt>
-                            <dd>{$user->port}</dd>
-                            <dt>密码</dt>
-                            <dd>{$user->passwd}</dd>
-                            <dt>上次使用</dt>
-                            <dd>{$user->lastSsTime()}</dd>
-                        </dl>
-                    </div>
-                    <!-- /.box-body -->
-                </div>
-                <!-- /.box -->
-            </div>
-            <!-- /.col (right) -->
         </div>
         <!-- /.row --><!-- END PROGRESS BARS -->
     </section>

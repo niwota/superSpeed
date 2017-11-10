@@ -126,11 +126,19 @@
                     </a>
                 </li>
 
+                 <li>
+                    <a href="/user/help">
+                        <i class="fa  fa-bus"></i> <span>Help Me</span>
+                    </a>
+                </li>
+
+                <!--
                 <li>
                     <a href="/user/invite">
                         <i class="fa fa-users"></i> <span>邀请好友</span>
                     </a>
                 </li>
+                -->
 
                 {if $user->isAdmin()}
                     <li>

@@ -48,7 +48,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="nav nav-stacked">
-                                        <li><a href="./node/{$node->id}">节点地址 <span
+                                        <li><a href="./node/{$node->id}">节点地址（点这里扫码） <span
                                                         class="pull-right badge bg-blue">{$node->server}</span></a></li>
                                         <li><a href="./node/{$node->id}">连接端口 <span
                                                         class="pull-right badge bg-aqua">{$user->port}</span></a></li>
