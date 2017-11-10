@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ss-panel
 
 Let's talk about cat.  Based on [LightFish](https://github.com/Pongtan/LightFish).
@@ -76,3 +77,7 @@ location / {
 
 view config guide on [wiki](https://github.com/orvice/ss-panel/wiki/v3-Config)
 
+=======
+# superSpeed
+Just Go Go
+>>>>>>> c5267e9fb7fa20d96a14edab08f328849b40aadb
