@@ -112,13 +112,13 @@
                         <i class="fa fa-user"></i> <span>我的信息</span>
                     </a>
                 </li>
-
+                <!--
                 <li>
                     <a href="/user/trafficlog">
                         <i class="fa fa-history"></i> <span>流量记录</span>
                     </a>
                 </li>
-
+                -->
 
                 <li>
                     <a href="/user/edit">
