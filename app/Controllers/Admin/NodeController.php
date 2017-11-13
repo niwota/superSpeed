@@ -46,7 +46,7 @@ class NodeController extends AdminController
         $id = $args['id'];
         $node = Node::find($id);
         if ($node == null) {
-
+            return $this->redirect($response,'/admin/node');
         }
         $method = Node::getCustomerMethod();
         return $this->view()->assign('node', $node)->assign('method', $method)->display('admin/node/edit.tpl');

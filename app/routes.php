@@ -109,6 +109,13 @@ $app->group('/admin', function () {
     $this->delete('/user/{id}', 'App\Controllers\Admin\UserController:delete');
     $this->get('/user/{id}/delete', 'App\Controllers\Admin\UserController:deleteGet');
 
+    //Links
+    $this->get('/link','App\Controllers\Admin\LinkController:index');
+    $this->get('/link/create','App\Controllers\Admin\LinkController:create');
+    $this->post('/link', 'App\Controllers\Admin\LinkController:add');
+    $this->get('/link/{id}/edit', 'App\Controllers\Admin\LinkController:edit');
+    $this->put('/link/{id}', 'App\Controllers\Admin\LinkController:update');
+
     // Test
     $this->get('/test/sendmail', 'App\Controllers\Admin\TestController:sendMail');
     $this->post('/test/sendmail', 'App\Controllers\Admin\TestController:sendMailPost');
@@ -117,6 +124,7 @@ $app->group('/admin', function () {
     $this->get('/invite', 'App\Controllers\AdminController:invite');
     $this->post('/invite', 'App\Controllers\AdminController:addInvite');
     $this->get('/logout', 'App\Controllers\AdminController:logout');
+
 })->add(new Admin());
 
 // API

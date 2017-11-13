@@ -14,6 +14,7 @@ class View
         // add config
         $smarty->assign('config',Config::getPublicConfig());
         $smarty->assign('user',Auth::getUser());
+        $smarty->assign('links',Linkapp::getLinks());
         $smarty->assign('analyticsCode',DbConfig::get('analytics-code'));
         return $smarty;
     }

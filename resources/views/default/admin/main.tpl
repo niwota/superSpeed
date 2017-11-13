@@ -128,6 +128,12 @@
                         <i class="fa fa-history"></i> <span>流量记录</span>
                     </a>
                 </li>
+
+                <li>
+                    <a href="/admin/link">
+                        <i class="fa fa-link"></i> <span>链接管理</span>
+                    </a>
+                </li>
                 
                 <li>
                     <a href="/admin/sys">
