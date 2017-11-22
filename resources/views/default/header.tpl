@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <title>{$config["appName"]}</title>
     <!-- CSS fonts.googleapis.com -->
-    <link href="//fonts.lug.ustc.edu.cn/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
     <link href="/assets/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="/assets/materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!--
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -15,6 +16,7 @@
         enable_page_level_ads: true
     });
     </script>
+    -->
 </head>
 <body>
 <nav class="light-blue lighten-1" role="navigation">
