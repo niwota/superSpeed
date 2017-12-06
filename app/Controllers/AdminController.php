@@ -155,4 +155,9 @@ class AdminController extends UserController
         return $response->getBody()->write(json_encode($res));
     }
 
+    public function sysinfo($request, $response, $args)
+    {
+        return $this->view()->display('admin/sys.tpl');
+    }
+
 }
