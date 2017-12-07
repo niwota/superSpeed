@@ -11,7 +11,7 @@ class LinkController extends AdminController{
         if (isset($request->getQueryParams()["page"])) {
             $pageNum = $request->getQueryParams()["page"];
         }
-        $links = Link::where('is_display',1)->orderBy('sort','desc')->paginate(15, ['*'], 'page', $pageNum);
+        $links = Link::orderBy('sort','desc')->paginate(15, ['*'], 'page', $pageNum);
         $links->setPath('/admin/link');
         return $this->view()->assign('links', $links)->display('admin/link/index.tpl');
     }
