@@ -4,7 +4,7 @@
 		<ul>
 			{foreach $links as $link}
 				<li style="width:33%;float:left;text-align:center;margin: 5px auto;">
-					<a class="btn" href="{$link->link_uri}" target="_blank" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;width: 100%;padding: 0 1rem;" >{$link->link_name}</a>
+					<a class="btn" href="{$link->link_uri}" target="_blank" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;max-width: 95%;padding: 0 1rem;" >{$link->link_name}</a>
 				</li>
 			{/foreach}
 			<div class="clearfix"></div>
